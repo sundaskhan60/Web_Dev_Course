@@ -1,0 +1,110 @@
+/* About Page - Simple */
+
+.about-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      center / cover no-repeat;
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.about-simple {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about-simple h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-simple p {
+  max-width: 800px;
+  margin: 0 auto 15px;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 28px;
+  }
+
+  .about-simple {
+    padding: 40px 20px;
+  }
+}
+
+/* ===========================
+   RESPONSIVE ABOUT PAGE
+   =========================== */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .about-hero {
+    padding: 60px 0;
+  }
+
+  .about-hero h1 {
+    font-size: 32px;
+  }
+
+  .about-simple {
+    padding: 50px 20px;
+  }
+
+  .about-simple p {
+    font-size: 15px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 50px 0;
+  }
+
+  .about-hero h1 {
+    font-size: 26px;
+  }
+
+  .about-hero p {
+    font-size: 14px;
+  }
+
+  .about-simple {
+    padding: 40px 15px;
+  }
+
+  .about-simple h2 {
+    font-size: 22px;
+  }
+
+  .about-simple p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .about-hero h1 {
+    font-size: 22px;
+  }
+
+  .about-simple h2 {
+    font-size: 20px;
+  }
+
+  .about-simple p {
+    font-size: 13px;
+  }
+}
